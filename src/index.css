@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.heade{
+    background-image: url('./img/gg.svg');
+    height: 760px;
+    width: full;
+    background-size: cover;
+    background-position: center;
+}
+.fon{
+    background-color: #E7E7E7;
+}
+*{
+    font-family: 'Inter';
+}
