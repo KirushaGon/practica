@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.heade{
+.head{
     background-image: url('./img/gg.svg');
     height: 760px;
     width: full;
@@ -14,4 +14,58 @@
 }
 *{
     font-family: 'Inter';
+}
+.PROF{
+    height: 112px;
+    width: full;
+    background-size: cover;
+    background-position: center;
+}
+.product1{
+    width: 1920px;
+}
+.product1-1{
+    width: 720px;
+    height: 720px;
+}
+.product1-2{
+    background-image: url('./img/women1.svg');
+    width: 720px;
+    height: 720px;
+}
+.product2{
+    width: 1920px;
+    height: 720px;
+}
+.product2-1a{
+    width: 960px;
+    height: 720px;
+}
+.product2-2a{
+    width: 960px;
+    height: 720px;
+}
+.product2-1{
+    background-image: url('./img/men1.svg');
+    width: 596px;
+    height: 636px;
+}
+.product3{
+    width: 1920px;
+    height: 720px;
+}
+.product3-1{
+    background-image: url("./img/women2.svg");
+    width: 608px;
+    height: 640px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.product3-2{
+    background-image: url("./img/men2.svg");
+    width: 608px;
+    height: 640px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
