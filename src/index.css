@@ -25,7 +25,7 @@
     width: 1920px;
 }
 .product1-1{
-    width: 720px;
+    width: full;
     height: 720px;
 }
 .product1-2{
@@ -69,3 +69,15 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.frame7{
+    border-right: 112px;
+    border-left: 112px;
+}
+
+.frame8{
+    background-image: url("./img/bloom.svg");
+    width: 129px;
+    height: 24px;
+
+}
+

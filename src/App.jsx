@@ -6,7 +6,9 @@ import ruba from './img/f.svg'
 import arr1 from './img/ArrowLeft.svg'
 import arr2 from './img/ArrowRight.svg'
 import arr3 from './img/arr1.svg'
-
+import arr1p from './img/ArrowUpRight.svg'
+import bloom from './img/bloom.svg'
+import arr0 from './img/Vector.svg'
 function App() {
   return (
     <>
@@ -40,25 +42,34 @@ function App() {
               </div>
             </div>
             <div className="w-full h-[563px] relative flex justify-start items-start  head">
-              <div className="w-full text-white py-[600px] px-[115px] text-[60px] font-bold ">Spring Season</div>
+              <div className="w-full text-white ml-[180px] mt-[600px] text-[60px] font-bold ">Spring Season</div>
               <div className="justify-start items-start gap-2 inline-flex w-full">
-                <div className=" text-white py-[625px] pl-[515px]  text-[30px] font-bold uppercase">view collection</div>
+                <div className=" text-white mt-[630px] ml-[600px] text-[30px] font-bold uppercase">view collection
+                </div>
+                <img src='arr0' alt='' />
               </div>
             </div>
           </div>
         </div>
-
         <div className="w-full h-[8px] justify-center items-center flex PROF  bg-orange-500">
           <img src={prof} alt="" />
         </div>
-
         <div className='product1 flex justify-center items-center gap-[60px]'>
-          <div className="product1-1 flex items-center">
+          <div className="product1-1 flex items-center ">
             <img src={arr1} alt="" className='w-[32px] h-[376px]' />
             <img src={ruba} alt="" className='w-[400px] h-[376px]' />
             <img src={arr2} alt="" className='w-[32px] h-[376px]' />
+            <div className="w-72 h-20 flex-col justify-start items-center gap-5 inline-flex">
+              <div className="self-stretch text-center text-[#111111] text-xl font-medium font-['Inter'] leading-loose">Basic Shirt</div>
+              <div className="justify-start items-start gap-2 inline-flex">
+                <div className="text-center text-black text-lg font-semibold font-['Inter'] leading-relaxed">€49</div>
+              </div>
+            </div>
           </div>
           <div className="product1-2">
+            <div className="h-14 px-6 py-4 bg-[#111111] rounded-lg justify-center items-center gap-2 inline-flex mt-[630px] ml-[40px]">
+              <div className="text-center text-white rounded-lg text-base font-bold font-['Inter'] leading-normal">Shop Shirts</div>
+            </div>
           </div>
         </div>
         <div className="product2 flex ">
@@ -80,20 +91,28 @@ function App() {
         </div>
         <div className="product3 flex justify-center items-center">
           <div className="product3-1a">
-            <div className="product3-1 flex">
-              <div className="text-black text-sm font-medium w-[58px] h-[20px] font-['Inter'] uppercase leading-tight tracking-wide">women</div>
-              <img src={arr3} alt="" className='w-[20px] h-[20px]'/>
+            <div className="product3-1 flex pt-[600px]">
+              <div className="text-black text-sm font-medium ml-[20px] w-[58px] h-[20px] font-['Inter'] uppercase leading-tight tracking-wide">women</div>
+              <img src={arr3} alt="" className='w-[13px] h-[13px]' />
             </div>
           </div>
           <div className="product3-2a">
-            <div className="product3-2 flex">
-              <div className="text-black text-sm font-medium w-[58px] h-[20px] font-['Inter'] uppercase leading-tight tracking-wide">men</div>
-              <img src={arr3} alt="" className='w-[20px] h-[20px]'/>
+            <div className="product3-2 flex pt-[600px]">
+              <div className="text-black text-sm font-medium ml-[20px] w-[58px] h-[20px] font-['Inter'] uppercase leading-tight tracking-wide">men</div>
+              <img src={arr3} alt="" className='w-[13px] h-[13px]' />
             </div>
           </div>
         </div>
-
-
+        <div className='Social-proof w-full h-[502px] pt-[64px] pb-[64px] flex-col inline-flex'>
+          <div className='Frame7 w-[1216px] h-[374px] gap-[40px]'>
+            <div className="w-96 text-center text-[#111111] text-4xl font-extrabold font-['Inter'] leading-10" >Hot off the press</div>
+            <div className="Frame3545 w-[1216px] h-[286px] ">
+              <div className="Frame3578">
+                <div className='frame8 justify-center items-center inline-flex'> </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
